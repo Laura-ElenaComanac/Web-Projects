@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form method="POST" action="Lab01_5.html">
+        <table>
+            <tr>
+                <td colspan="5"><h1>Fișă de închiriere filme</h1></td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <fieldset><legend>Persoana:</legend>
+                        <label for="nume">Nume:</label>
+                        <input type="text" id="nume" name="fname" size="50"><br><br>
+                        <label for="adresa">Adresa:</label>
+                        <input type="text" id="adresa" name="fadresa" size="50"><br><br>
+                        <label for="oras">Oras:</label>
+                        <input type="text" id="oras" name="foras" size="50">
+                    </fieldset>
+                </td>
+                <td colspan="2">
+                    <fieldset><legend>Contact:</legend>
+                        <label for="telefon">Telefon:</label>
+                        <input type="text" id="telefon" name="ftelefon"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="femail"><br><br>
+                        <label for="data">Data:</label>
+                        <input type="text" id="data" name="fdata">
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="5"><h2>Filme</h2></td>
+            </tr>
+
+            <tr>
+                <td colspan=2>
+                    <ul>
+                        <li>SF
+                            <ol start="1">
+                                <li>Interstellar</li>
+                                <li>The Martian</li>
+                            </ol>
+                        </li>
+                        <li>Fantastic
+                          <ul>
+                            <li>Wonder Woman</li>
+                            <li>The Hobbit</li>
+                          </ul>
+                        </li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>Comedie
+                            <ol type="A">
+                                <li>School of rock</li>
+                                <li>Mrs Doubtfire</li>
+                            </ol>
+                        </li>
+                        <li>Animație
+                          <ul>
+                            <li>The Lion King</li>
+                            <li>The Croods</li>
+                          </ul>
+                        </li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>Documentar
+                            <ol type="I">
+                                <li>The great hack</li>
+                                <li>The History of AI</li>
+                            </ol>
+                        </li>
+                        <li>Muzical
+                          <ul>
+                            <li>La La Land</li>
+                            <li>Beauty and the beast</li>
+                          </ul>
+                        </li>
+                    </ul>
+                </td>
+
+                <td>
+                    <ul>
+                        <li>Dramă
+                            <ol type="i">
+                                <li>A Beautiful Mind</li>
+                                <li>Atonement</li>
+                            </ol>
+                        </li>
+                        <li>Acțiune
+                          <ul>
+                            <li>The Matrix</li>
+                            <li>WALL-E</li>
+                          </ul>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="5"><h2>Filme închiriate</h2></td>
+            </tr>
+            <tr>
+                <th>Nr</th>
+                <th>Cod</th>
+                <th>Nume Film</th>
+                <th>An apariție</th>
+                <th>A mai fost închiriat</th>
+            </tr>
+
+            <tr>
+                <td><div><input type="checkbox" id="c1" name="1" value="1"><label for="c1"><b>1</b></label></div></td>
+                <td><input type="number" id="Cod1" step="1"></td>
+                <td><input maxlength="25" type="text" id="Film1"></td>
+                <td><input type="number" min="1900" max="2021" id="An1"></td>
+                <td><input type="radio" name="inchiriat1" id="da" checked>Da<input type="radio" name="inchiriat1" id="nu">Nu</td>
+
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="c2" name="2" value="2"><label for="c2"><b>2</b></label></td>
+                <td><input type="number" id="Cod2" step="1"></td>
+                <td><input maxlength="25" type="text" id="Film2"></td>
+                <td><input type="number" min="1900" max="2021" id="An2"></td>
+                <td><input type="radio" name="inchiriat2" id="da1" checked>Da<input type="radio" name="inchiriat2" id="nu1">Nu</td>
+            </tr>
+            <tr>
+                <td><input disabled type="checkbox" id="c3" name="3" value="3"><label for="c3"><b>3</b></label></td>
+                <td><input type="text" id="Cod3" value="only 2!" readonly></td>
+                <td><input maxlength="25" type="text" id="Film3" value="only 2!" readonly></td>
+                <td><input type="text" id="An3" value="only 2!" readonly></td>
+                <td><input type="radio" name="inchiriat3" id="da2" disabled>Da<input type="radio" name="inchiriat3" id="nu2" disabled>Nu</td>
+            </tr>
+
+            <tr>
+                <td colspan="5" rowspan="1">
+                    <table>
+                        <tr>
+                            <td><span draggable="true">Perioadă închiriere</span></td>
+                            <td><select size="10" name="perioada" id="per" multiple>
+                                <option value="1" selected>O săptămână</option>
+                                <option value="2">Două săptămâni</option>
+                                <option value="3">Trei săptămâni</option>
+                                <option value="4">O lună</option>
+                                </select></td>
+                            <td><p title="Observatii">Observații</p></td>
+                            <td><textarea id="obs" name="observatii" rows="8" cols="65"></textarea></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="5">
+                    <table>
+                        <tr>
+                            <td><a href="http://myheaven.ro" target="_blank">Visit my website!</a></td>
+                            <td><img src="https://user-images.githubusercontent.com/57533863/109424393-1b2b5700-79ec-11eb-9b64-4028465fcfc3.jpeg" alt="MyNetwork" width="650" height="100"></td>
+                            <td><button type="button">Închiriază</button></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+     </table>
+        </form>
+</body>
+</html>
