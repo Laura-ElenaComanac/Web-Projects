@@ -1,11 +1,8 @@
-# Web-Projects
-
-### My website: http://myheaven.ro
-
+# Movie Rental
 <ul>
  <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Movie%20Rental"> 
-			  Movie Rental
+      <a href="https://www.scs.ubbcluj.ro/~olir2781/lab1/html4/Lab01_4.html"> 
+			  Movie Rental in HTML 4.01 (Transitional)
         <img src="https://user-images.githubusercontent.com/57533863/109656794-78024b00-7b6d-11eb-8968-8cf5c4d8dce2.png">
       </a>
 </li>
