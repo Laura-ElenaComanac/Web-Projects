@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#wrapper{
+    width: 300px;
+    height: 800px;
+    border: 1px solid black;
+    display: inline-grid;
+    grid-template-columns: auto;
+    background-color: yellow;
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.inner span{
+    padding-left: 20px;
+}
+
+.inner img{
+    height:60%;
+    width: 50%;
+}
+
+

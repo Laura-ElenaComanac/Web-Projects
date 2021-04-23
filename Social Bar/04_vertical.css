@@ -1,0 +1,136 @@
+div {
+    background : url('https://www.cs.ubbcluj.ro/~bufny/wp-content/uploads/css-pr4.png');
+    border : 0.5px solid black;
+}
+
+.facebook{
+    background-position: -0px -85px;
+    width: 83px;
+    height: 83px;
+}
+
+.facebook:hover{
+    background-position: -0px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.dots{
+    background-position: -84px -85px;
+    width: 83px;
+    height: 83px;
+}
+
+.dots:hover{
+    background-position: -84px -167px;
+    width: 83px;
+    height: 83px;
+}
+
+.earth{
+    background-position: -168px -85px;
+    width: 83px;
+    height: 83px;
+}
+
+.earth:hover{
+    background-position: -168px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.google{
+    background-position: -253px -85px;
+    width: 83px;
+    height: 83px;
+}
+
+.google:hover{
+    background-position: -253px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.linkedin{
+    background-position: -337px -85px;
+    width: 83px;
+    height: 83px;
+}
+
+.linkedin:hover{
+    background-position: -337px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.pinterest{
+    background-position: -421px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.pinterest:hover{
+    background-position: -421px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.wifi{
+    background-position: -505px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.wifi:hover{
+    background-position: -505px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.skype{
+    background-position: -589px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.skype:hover{
+    background-position: -589px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.twitter{
+    background-position: -673px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.twitter:hover{
+    background-position: -673px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.vimeo{
+    background-position: -757px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.vimeo:hover{
+    background-position: -757px -0px;
+    width: 83px;
+    height: 83px;
+}
+
+.youtube{
+    background-position: -841px -84px;
+    width: 83px;
+    height: 83px;
+}
+
+.youtube:hover{
+    background-position: -841px -0px;
+    width: 83px;
+    height: 83px;
+}

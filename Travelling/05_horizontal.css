@@ -1,0 +1,38 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#wrapper{
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    grid-gap: 30px;
+    padding: 30px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.inner img{
+    height:90%;
+    width: 70%;
+}
+
+
+
