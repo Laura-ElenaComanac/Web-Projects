@@ -20,6 +20,13 @@ http://myheaven.ro/01/, http://myheaven.ro/02/, http://myheaven.ro/03/
 </li>
 
 <li>
+      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Cats%20Game"> 
+			  Cats Game
+        <img src="https://user-images.githubusercontent.com/57533863/116552018-3984d480-a901-11eb-9684-12b39ddc1964.png">
+      </a>
+</li>
+
+<li>
       <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Travelling"> 
 			  Travelling
         <img src="https://user-images.githubusercontent.com/57533863/115905375-b0881c00-a46e-11eb-8f70-456505b6eec4.png">
