@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table id="tab">
+
+    </table>
+    <script>
+        n = 4
+        const array = []
+        for(i=0;i<n*n;i++)
+            array.push(i)
+        array.sort((a,b) => 0.5-Math.random())
+        
+        function showTable(array){
+            document.getElementById('tab').innerHTML = ''
+            for(i=0;i<n;i++){
+            tr = document.createElement('tr')
+            for(j=0;j<n;j++){
+                td = document.createElement('td')
+                td.innerHTML = array[i*n + j]
+                if(array[i*n+j]==0)
+                    td.innerHTML = ""
+                tr.appendChild(td)
+            }
+            document.getElementById('tab').appendChild(tr)
+        }
+    }
+    showTable(array)
+    emptySquare = array.indexOf(0)
+
+    function handle(event){
+        currentRow = Math.floor(emptySquare/n)
+        currentColumn = emptySquare%n
+        //console.log(currentRow)
+        //console.log(currentColumn)
+
+        nextRow = currentRow
+        nextColumn = currentColumn
+
+        if(event.key == 'ArrowUp')
+            nextRow -= 1
+        else if(event.key == 'ArrowDown')
+                nextRow += 1
+        else if(event.key == 'ArrowLeft')
+                nextColumn -=1
+        else if(event.key == 'ArrowRight')
+               nextColumn +=1
+        else return
+
+        //console.log(nextRow)
+        //console.log(nextColumn)
+
+        if(nextRow < 0 || nextRow >= n)
+            return
+
+        if(nextColumn < 0 || nextColumn >= n)
+            return
+
+        nextSquare = nextRow * n + nextColumn
+        aux = array[emptySquare]
+        array[emptySquare] = array[nextSquare]
+        array[nextSquare] = aux
+
+        emptySquare = nextSquare
+
+        showTable(array)
+    }
+    document.addEventListener('keyup', handle)
+    </script>
+</body>
+</html>
