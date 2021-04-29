@@ -1,38 +1,27 @@
-# Cats Game - HTML, CSS, JS
+# Cats Game - HTML, CSS, JavaScript
 <ul>
 
 <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Aurora%20Borealis"> 
-			  Aurora Borealis
-        <img src="https://user-images.githubusercontent.com/57533863/115905115-4ff8df00-a46e-11eb-8ec4-6d47df882848.png">
+	Game is on!
+        <img src="https://user-images.githubusercontent.com/57533863/116552511-c7f95600-a901-11eb-8409-58e6e511419a.png">
       </a>
 </li>
 
 <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Social%20Bar"> 
-			  Social Bar
-        <img src="https://user-images.githubusercontent.com/57533863/115905210-73bc2500-a46e-11eb-8cee-0718102f2d17.png">
+      	Ready? Play!
+        <img src="https://user-images.githubusercontent.com/57533863/116552795-1870b380-a902-11eb-9abc-23d3e7113ae8.png">
       </a>
 </li>
 
 <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Cats%20Game"> 
-			  Cats Game
-        <img src="https://user-images.githubusercontent.com/57533863/116552018-3984d480-a901-11eb-9684-12b39ddc1964.png">
+      	Whos's the next cat?
+        <img src="https://user-images.githubusercontent.com/57533863/116552965-4c4bd900-a902-11eb-8f86-63724ba57b34.png">
       </a>
 </li>
 
 <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Travelling"> 
-			  Travelling
-        <img src="https://user-images.githubusercontent.com/57533863/115905375-b0881c00-a46e-11eb-8f70-456505b6eec4.png">
-      </a>
-</li>
-
- <li>
-      <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/Movie%20Rental"> 
-			  Movie Rental
-        <img src="https://user-images.githubusercontent.com/57533863/109656794-78024b00-7b6d-11eb-8968-8cf5c4d8dce2.png">
+      Well done! All the cats are matched! :)
+        <img src="https://user-images.githubusercontent.com/57533863/116553186-86b57600-a902-11eb-8ec5-40e1e472c2aa.png">
       </a>
 </li>
  
