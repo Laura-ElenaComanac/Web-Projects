@@ -1,0 +1,10 @@
+model/Identifiable.java
+ model.Identifiable
+model/EntityID.java
+ model.EntityID
+model/Trip.java
+ model.Trip
+model/AgencyUser.java
+ model.AgencyUser
+model/Reservation.java
+ model.Reservation

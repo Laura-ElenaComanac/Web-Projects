@@ -1,0 +1,10 @@
+clientRest/AttractionsClient.java
+ clientRest.AttractionsClient
+trip/serviceRest/AttractionsException.java
+ trip.serviceRest.AttractionsException
+trip/serviceRest/AttractionsController.java
+ trip.serviceRest.AttractionsController
+startRest/StartRestClient.java
+ startRest.StartRestClient
+startRest/StartRestServices.java
+ startRest.StartRestServices

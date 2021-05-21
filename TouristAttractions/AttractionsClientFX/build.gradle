@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' //version '0.0.9'
+}
+
+//group 'org.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'client.ClientMain'
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
+
+    compile project (':AttractionsModel')
+    compile project (':AttractionsServices')
+    compile project (':AttractionsNetworking')
+}
+
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls' , 'javafx.fxml']
+}
+
+test {
+    useJUnitPlatform()
+}

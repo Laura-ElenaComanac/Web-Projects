@@ -1,0 +1,13 @@
+client/ClientMain.java
+ client.ClientMain
+client/gui/MessageAlert.java
+ client.gui.MessageAlert
+client/gui/LoginController.java
+ client.gui.LoginController
+ client.gui.LoginController$1
+client/StartObjectClientFX.java
+ client.StartObjectClientFX
+client/gui/TripsController.java
+ client.gui.TripsController
+ client.gui.TripsController$1
+ client.gui.TripsController$2
