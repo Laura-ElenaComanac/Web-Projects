@@ -7,7 +7,7 @@ http://myheaven.ro/01/, http://myheaven.ro/02/, http://myheaven.ro/03/
 	
 <li>
       <a href="https://github.com/Laura-ElenaOlaru/Web-Projects/tree/main/TouristAttractions"> 
-			  TouristAttractions
+			  TouristAttractions - Rest Services and Client
         <img src="https://user-images.githubusercontent.com/57533863/114193107-de417100-9956-11eb-917d-fc4b0406c139.png">
       </a>
 </li>	
